@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -577,10 +581,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -631,6 +631,10 @@ video {
   flex-shrink: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -643,6 +647,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -679,6 +687,10 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.text-nowrap {
+  text-wrap: nowrap;
 }
 
 .rounded-lg {
@@ -718,32 +730,18 @@ video {
      object-fit: cover;
 }
 
-.p-\[12px_16px\] {
-  padding: 12px 16px;
-}
-
 .p-\[12px_24px\] {
   padding: 12px 24px;
-}
-
-.px-\[18px\] {
-  padding-left: 18px;
-  padding-right: 18px;
-}
-
-.px-\[12px\] {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.py-\[16px\] {
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .px-\[16px\] {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.px-\[18px\] {
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .py-\[12px\] {
@@ -759,6 +757,14 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-end {
+  text-align: end;
+}
+
 .font-poppins {
   font-family: Poppins;
 }
@@ -771,6 +777,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-medium {
@@ -833,37 +844,7 @@ video {
   --tw-ring-color: rgb(64 65 218 / var(--tw-ring-opacity));
 }
 
-.group:-moz-placeholder-shown .group-placeholder-shown\:text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.group:placeholder-shown .group-placeholder-shown\:text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.groupvalid .group-\[valid\]\:text-\[\#070625\] {
-  --tw-text-opacity: 1;
-  color: rgb(7 6 37 / var(--tw-text-opacity));
-}
-
-.group:valid .group-\[\:valid\]\:text-\[\#070625\] {
-  --tw-text-opacity: 1;
-  color: rgb(7 6 37 / var(--tw-text-opacity));
-}
-
-.peer:valid ~ .peer-valid\:text-\[\#070625\] {
-  --tw-text-opacity: 1;
-  color: rgb(7 6 37 / var(--tw-text-opacity));
-}
-
 .group:has(:invalid) .group-has-\[\:invalid\]\:text-\[\#757C98\] {
   --tw-text-opacity: 1;
   color: rgb(117 124 152 / var(--tw-text-opacity));
-}
-
-.group:has(:invalid) .group-has-\[\:invalid\]\:text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
